@@ -1,0 +1,24 @@
+graph {
+    text-style:normal;
+    text-mode:normal;
+}
+
+node {
+    size: 10px;
+    shape: circle ;
+    stroke-mode: plain;
+    text-mode:normal;
+    text-alignment:at-left;
+    text-background-mode:none;
+}
+
+edge {
+    text-mode:normal;
+    text-alignment:along;
+    text-background-mode:none;
+    text-offset: -10,-10;
+}
+node.start { fill-color: green; }
+node.end { fill-color: red; }
+node.branch { fill-color: blue; }
+edge.branch { text-color: purple; }
